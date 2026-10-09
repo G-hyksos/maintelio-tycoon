@@ -1,0 +1,21 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+dist/
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets de signature (ne jamais versionner)
+android/key.properties
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision

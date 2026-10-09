@@ -1,0 +1,39 @@
+name: maintelio_tycoon
+description: Maintelio Tycoon — jeu de stratégie et de gestion de la maintenance.
+publish_to: 'none'
+version: 1.2.0+3
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.38.0
+  flame_audio: ^2.12.0
+  flutter_local_notifications: ^22.3.0
+  timezone: ^0.11.0
+  http: ^1.5.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+
+# Icône générée par : dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+  background_color_ios: "#0F6E56"
+  adaptive_icon_background: "#0F6E56"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  min_sdk_android: 21
